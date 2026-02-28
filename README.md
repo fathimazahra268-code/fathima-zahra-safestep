@@ -47,9 +47,9 @@ The system uses geospatial visualization to display community-driven safety mark
 - Tools used: VS Code, GitHub
 - 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components:-
+- Specifications: -
+- Tools required: -
 
 ---
 
@@ -139,8 +139,7 @@ Represents the user flow diagram of SafeStep, illustrating how users move from l
 
 #### Build Photos
 
-[![Team](Add photo of your team here)
-](https://drive.google.com/file/d/1VyY0fl_YwVDL9V7nAI9aWJMY-ea-6gD3/view?usp=sharing)
+(https://drive.google.com/file/d/1VyY0fl_YwVDL9V7nAI9aWJMY-ea-6gD3/view?usp=sharing)
 
 ![Components](Add photo of your components here)
 *List out all components shown*
