@@ -2,28 +2,38 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# SafeStep 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Fathima Zahra (individual)
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Fathima Zahra - TKM College of Engineering
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://fathimazahra268-code.github.io/safestep/
 
 ### Project Description
-[2-3 lines about what your project does]
+SafeStep is a smart pedestrian safety mapping platform designed to help people identify safer walking routes and report unsafe areas in real time.
+
+Pedestrians often face risks such as poorly lit streets, damaged sidewalks, unsafe crossings, and accident-prone zones, yet existing navigation systems prioritize speed over safety. SafeStep shifts the focus from navigation efficiency to human safety.
 
 ### The Problem statement
-[What problem are you solving?]
+Pedestrians frequently encounter unsafe walking conditions such as poorly lit roads, broken sidewalks, high-traffic crossings, and unmonitored areas. Despite the availability of navigation apps, most platforms prioritize speed and convenience rather than personal safety.
+
+There is currently no dedicated, community-driven system focused exclusively on identifying and visualizing pedestrian safety risks in real time.
+SafeStep aims to address this gap by enabling safer walking decisions through collaborative mapping and hazard reporting.
 
 ### The Solution
-[How are you solving it?]
+SafeStep is a smart pedestrian safety mapping platform that allows users to:
+1. Log in and access a safety dashboard
+2. View a live interactive map
+3. Mark locations as safe or unsafe
+4. Report pedestrian hazards
+5. Receive safer route suggestions
 
+The system uses geospatial visualization to display community-driven safety markers and simulated route risk levels. By combining user-generated data with map-based insights, SafeStep empowers pedestrians to make safer mobility choices.
 ---
 
 ## Technical Details
@@ -31,11 +41,11 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
+- Languages used: JavaScript, HTML, CSS
+- Frameworks used: -
+- Libraries used: -
+- Tools used: VS Code, GitHub
+- 
 **For Hardware:**
 - Main components: [List main components]
 - Specifications: [Technical specifications]
@@ -46,10 +56,18 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Simple Login System: SafeStep includes a lightweight login interface that allows users to access the safety dashboard. This ensures that interactions such as reporting and marking zones are user-driven and personalized.
+- Interactive Live Safety Map: The platform integrates a real-time interactive map using Leaflet and OpenStreetMap. Users can zoom, pan, and explore different areas visually, creating an intuitive and engaging safety experience.
+- Click-to-Add Safety Markers: Users can directly click on the map to mark locations as:
+🟢 Safe Area
+🔴 Unsafe Area
+This makes the platform community-powered, where users contribute safety intelligence in real time.
+- Pedestrian Hazard Reporting: Users can report specific issues such as:
+*Poor lighting
+*Broken sidewalks
+*Dangerous crossings
+*High-traffic zones
+These reports are dynamically displayed within the dashboard, creating a growing safety database.
 
 ---
 
@@ -83,21 +101,24 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+(https://drive.google.com/file/d/1VyY0fl_YwVDL9V7nAI9aWJMY-ea-6gD3/view?usp=sharing)
+SafeStep’s login page allows users to enter the platform and access personalized pedestrian safety features such as reporting hazards, marking safe or unsafe areas, and finding safer routes.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+(https://drive.google.com/file/d/1Cr2yWbmKLnEFp0gmz_3SqulBS7Dv1INY/view?usp=sharing)
+This is a live interactive map powered by Leaflet and OpenStreetMap. Users can explore different locations and visually identify safe and unsafe zones marked by the community.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+(https://drive.google.com/file/d/1yqz820rSYwubdHX0zLy1TnnKhxmQb64A/view?usp=sharing)
+This section allows users to report pedestrian-related issues such as poor lighting, damaged roads, or unsafe crossings by entering the location, issue, and description.
+
+(https://drive.google.com/file/d/1_NoSN6hpW3L1JegFOnmmJog6YZo945ak/view?usp=sharing)
+Users enter a start and destination location. The system suggests a safer route along with a safety level (Low, Moderate, or High Risk) and practical safety advice. This visually displays the selected route path between the start and destination to give users a clear understanding of their journey.
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+[![Architecture Diagram](docs/architecture.png)](https://drive.google.com/file/d/1IkJ4ba3f24vyac7XmwjOfY7xoC8sPLP3/view?usp=drivesdk)
+Represents the user flow diagram of SafeStep, illustrating how users move from login to viewing the safety map, reporting issues, and finding safer routes.
 
 **Application Workflow:**
 
@@ -118,16 +139,18 @@ List the key features of your project:
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+[![Team](Add photo of your team here)
+](https://drive.google.com/file/d/1VyY0fl_YwVDL9V7nAI9aWJMY-ea-6gD3/view?usp=sharing)
 
 ![Components](Add photo of your components here)
 *List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+](https://drive.google.com/file/d/18yKTqd1wxVMNLoYpzJ-CtP_VsYynBfia/view?usp=sharing)
+Shows the SafeStep project implementation in VS Code, where HTML, CSS, and JavaScript are used together with Leaflet to build the interactive safety map and features.
 
-![Final](Add photo of final product here)
-*Explain the final build*
+(https://drive.google.com/file/d/1KRkSoiQB9_KABVlQxJ44cUMBgeGmTThY/view?usp=sharing)
+SafeStep is a community-powered pedestrian safety web application that helps users identify safer walking routes and report unsafe areas through an interactive live map.
+It combines hazard reporting, real-time safety markers, and route risk suggestions to prioritize safety over speed, empowering pedestrians to make informed travel decisions.
 
 ---
 
